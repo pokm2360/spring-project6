@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @RequestMapping("/method")
 @Controller
-public class MappingControllerquiz {
+public class Quizcontroller {
 	@ResponseBody
 	@GetMapping("/q") // 어노테이션이 같으면 아래는 생략가능 / 메소드 종류 꼭 확인!!
 	public String list() {
